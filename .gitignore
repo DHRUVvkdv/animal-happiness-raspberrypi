@@ -56,7 +56,8 @@ cover/
 *.pot
 
 # Django stuff:
-*.log
+# Commented this out as log stores the data we are posting to the server, and this can help in future. 
+# *.log 
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
